@@ -18,7 +18,7 @@ print!("Hola {nombre}");
 //Print con argumentos posicionales
 println!("{0} * {0} = {1}", x, x * x);
 ```
-También existen sintaxis que permiten usar herramientas de debug para tipos de datos personalizados, sean Structs o ENUM:  
+También existen sintaxis que permiten usar herramientas de debug para tipos de datos personalizados o compuestos, sean Structs, ENUM, arrays:  
 ```rust
 print!("{:?}", argumento);
 print!("{:#?}", argumento);

@@ -5,3 +5,7 @@ version = 4
 [[package]]
 name = "l01_helloWorld"
 version = "0.1.0"
+
+[[package]]
+name = "l02_variables"
+version = "0.1.0"
