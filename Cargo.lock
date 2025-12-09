@@ -9,3 +9,11 @@ version = "0.1.0"
 [[package]]
 name = "l02_variables"
 version = "0.1.0"
+
+[[package]]
+name = "l03_condicionalesYCiclos"
+version = "0.1.0"
+
+[[package]]
+name = "l04_manejoDeErrores"
+version = "0.1.0"
