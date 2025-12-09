@@ -139,7 +139,7 @@ enum Color {
     Red,
     Green,
     Blue,
-    Rgba(u8, u8, u8, f31),
+    Rgba(u8, u8, u8, f32),
     Hex(String),
     Hsl {h: u8, s: u8, l: u8} //se puede declarar como Struct también
 
