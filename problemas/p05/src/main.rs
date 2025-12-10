@@ -1,10 +1,10 @@
 use std::io::{self, Write};
+use util::print;
 
 fn main() {
     let mut input = String::new();
 
-    print!("Ingresa un número: ");
-    io::stdout().flush().unwrap();
+    print("Ingresa un número: ");
 
     io::stdin().read_line(&mut input).expect("Error al leer la entrada");
     let n1: i32 = input.trim().parse().expect("Por favor ingresa un número válido");
