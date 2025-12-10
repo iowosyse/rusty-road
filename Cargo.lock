@@ -17,3 +17,7 @@ version = "0.1.0"
 [[package]]
 name = "l04_manejoDeErrores"
 version = "0.1.0"
+
+[[package]]
+name = "l05_inputDesdeTeclado"
+version = "0.1.0"
