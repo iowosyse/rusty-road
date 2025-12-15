@@ -12,7 +12,7 @@ fn main() {
     };
 
     let mut resultado: f64 = base;
-    for i in 1..exponente as i32 {
+    for _ in 1..exponente as i32 {
         resultado *= base;
     }
 

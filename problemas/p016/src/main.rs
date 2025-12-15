@@ -1,5 +1,3 @@
-use std::result;
-
 use util::*;
 
 fn main() {
@@ -9,7 +7,7 @@ fn main() {
     let n2 = read_u32();
     let mut result = n1;
 
-    for i in 1..n2 {
+    for _ in 1..n2 {
         result += n1;
     }
 
