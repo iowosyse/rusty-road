@@ -93,8 +93,43 @@ dependencies = [
 ]
 
 [[package]]
+name = "p025"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
+name = "p026"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
+name = "p027"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
+name = "p028"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
 name = "p03"
 version = "0.1.0"
+
+[[package]]
+name = "p036"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
 
 [[package]]
 name = "p04"

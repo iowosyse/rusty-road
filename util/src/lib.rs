@@ -3,7 +3,9 @@ use std::io::{self, Write};
 pub fn read_string() -> String {
     let mut input = String::new();
 
-    io::stdin().read_line(&mut input).expect("Failed to read line");
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read line");
     input.trim().to_string() //la linea que devuelve el input sin espacios
 }
 
@@ -199,19 +201,19 @@ pub fn read_f64() -> f64 {
     }
 }
 
-pub fn read_128() -> f64 {
-    loop {
-        let input = read_string();
-        match input.parse::<f64>() {
-            Ok(num) => return num,
-            Err(_) => {
-                println!("Por favor ingresa un número válido.");
-            }
-        }
-    }
-}
-
 pub fn print(msg: &str) {
     print!("{}", msg);
     io::stdout().flush().expect("Failed to flush stdout");
+}
+
+pub fn read_char() -> char {
+    loop {
+        let input = read_string();
+        match input.trim().chars().next() {
+            Some(c) => return c,
+            None => {
+                println!("Por favor ingresa un caracter valido");
+            }
+        }
+    }
 }
